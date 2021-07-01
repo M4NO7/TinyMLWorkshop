@@ -4,3 +4,13 @@
 
 layout: home
 ---
+
+{% include header.md %}
+
+# Can put a workshop schedule/topics table here
+
+| Day | Date | Session             |   |   |
+|-----|------|---------------------|---|---|
+| 1   | 4/20 | Links to specifics  |   |   |
+| 2   | 6/9  | Links...            |   |   |
+|     |      |                     |   |   |
