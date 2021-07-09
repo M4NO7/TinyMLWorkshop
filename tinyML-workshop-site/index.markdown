@@ -2,7 +2,8 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-layout: home
+layout: default
+title: Home
 ---
 
 {% include header.md %}
@@ -13,8 +14,9 @@ layout: home
 {% for event in site.event_pages %}
 	<p>{{ event.title }}</p>
 {% endfor %}
-</div> -->
-
+</div>
+ -->
+ 
 | Day | Date | Session             |   |   |
 |-----|------|---------------------|---|---|
 | 1   | 4/20 | [Link to event]({{ site.baseurl }}/event_pages/event-1) |   |   |
