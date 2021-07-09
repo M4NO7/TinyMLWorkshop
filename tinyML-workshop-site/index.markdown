@@ -30,10 +30,9 @@ A full stack workshop for designing TinyML accelerators<br>
 </div>
  -->
 
-# Modify this table to show different iterations
+### TODO 
 
-| Day | Date | Session             |   |   |
-|-----|------|---------------------|---|---|
-| 1   | 4/20 | [Link to event]({{ site.baseurl }}/event_pages/event-1) |   |   |
-| 2   | 6/9  | Links...            |   |   |
-|     |      |                     |   |   |
+| Date | Version | Session |
+|------|---------|---------|
+| ... | ... | TinyML Workshop |
+| ... | ... | ... |
