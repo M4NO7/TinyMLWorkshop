@@ -9,7 +9,7 @@ title: Home
 # The Art-y of Accelerators for TinyML
 
 A full stack workshop for designing TinyML accelerators<br>
-*Coming December 2021*
+*Coming February 2021*
 
 <div style="display:inline-block;">
   <a style="text-decoration:none" href="https://www.seas.harvard.edu/">
@@ -30,9 +30,9 @@ A full stack workshop for designing TinyML accelerators<br>
 </div>
  -->
 
-### TODO 
+### Past and Upcoming Workshops
 
 | Date | Version | Session |
 |------|---------|---------|
-| ... | ... | TinyML Workshop |
+| Feb 2021 | v1.0 | TinyML-Summit |
 | ... | ... | ... |
