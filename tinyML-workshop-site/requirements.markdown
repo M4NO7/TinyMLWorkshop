@@ -5,6 +5,13 @@ date:   2021-06-28 19:54:01 -0700
 categories: jekyll update
 ---
 
+<div id="toc_container" markdown="1">
+<p class="toc_title">Contents</p>
+
+1. TOC
+{:toc}
+</div>
+
 ### Pre-requisites
 - Familiarity with ML “cycle” (inputs, preprocessing, training, inference, etc.)
 - Knowledge of computer organization (datapath, registers, opcodes, etc.)

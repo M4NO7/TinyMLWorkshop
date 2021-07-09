@@ -32,6 +32,7 @@ version: 0.1
 theme: jekyll-theme-lanyon
 plugins:
   - jekyll-feed
+markdown: kramdown
 
 collections:
   event_pages:
