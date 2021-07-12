@@ -2,6 +2,7 @@
 layout: page
 title: Schedule
 permalink: /schedule/
+innav: include
 ---
 
 ### Breakdown
