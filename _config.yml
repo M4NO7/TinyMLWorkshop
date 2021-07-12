@@ -19,7 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: TinyMLWorkshop
-email: sprakash@g.harvard.edu
+email: s.prakash@columbia.edu
 description: >- # this means to ignore newlines until "baseurl:"
   A full stack workshop for designing TinyML accelerators
 baseurl: /TinyMLWorkshop # the subpath of your site, e.g. /blog
@@ -37,7 +37,7 @@ markdown: kramdown
 collections:
   event_pages:
     output: true
-    permalink: /:collection/:name
+    permalink: /:name
 
 # Exclude from processing.
 # The following items will not be processed, by default.

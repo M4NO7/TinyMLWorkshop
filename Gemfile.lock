@@ -275,6 +275,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  jekyll-theme-dinky
 
 BUNDLED WITH
    2.2.21
