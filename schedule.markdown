@@ -2,7 +2,7 @@
 layout: page
 title: Schedule
 permalink: /schedule/
-innav: include
+innav: exclude
 ---
 
 ### Breakdown
