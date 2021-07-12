@@ -29,7 +29,7 @@ url: "ShvetankPrakash.github.io" # the base hostname & protocol for your site, e
 version: 0.1
 
 # Build settings
-theme: jekyll-theme-lanyon
+theme: jekyll-theme-dinky
 plugins:
   - jekyll-feed
 markdown: kramdown
