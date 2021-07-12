@@ -1,4 +1,4 @@
-# [The Art-y of Accelerators for TinyML]({{ "/" | relative_url }})
+# [The Art-y of Accelerators for TinyML]({{ "/" | prepend: site.baseurl }})
 
 A full stack workshop for designing TinyML accelerators<br>
 *Coming December 2021*
