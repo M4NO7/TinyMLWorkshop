@@ -7,7 +7,7 @@ title:  "Intro to TensorFlow Lite Micro"
 <div id="toc_container" markdown="1">
 <p class="toc_title">Contents</p>
 
-1. TOC
+* TOC
 {:toc}
 </div>
 
