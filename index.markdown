@@ -6,7 +6,7 @@ layout: default
 title: Home
 ---
 
-<h1> The Art-y of Accelerators for TinyML </h1>
+<!-- <h1> The Art-y of Accelerators for TinyML </h1>
 
 A full stack workshop for designing TinyML accelerators<br>
 *Coming February 2021*
@@ -20,7 +20,7 @@ A full stack workshop for designing TinyML accelerators<br>
   <a style="text-decoration:none" href="https://cfu-playground.readthedocs.io/en/latest/">
     <img src="{{ '/assets/logos/google.svg' | relative_url }}" alt="Google" style="height: 2.5rem">
   </a>
-</div>
+</div> -->
 
 <div id="toc_container" markdown="1">
 <p class="toc_title">Contents</p>
