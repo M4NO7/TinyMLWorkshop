@@ -97,7 +97,8 @@ h1, h2, h3, h4, h5, h6 {
   padding-top:    1rem;
   padding-bottom: 1rem;
   /*margin-bottom: 3rem;*/
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #a14743;
+  background-color: #ac4142;
 }
 .masthead-title {
   margin-top: 0;
@@ -105,7 +106,8 @@ h1, h2, h3, h4, h5, h6 {
   color: #505050;
 }
 .masthead-title a {
-  color: #505050;
+  color: #fff !important;
+  font-weight: bold;
 }
 .masthead-title small {
   font-size: 75%;
@@ -235,7 +237,7 @@ a.sidebar-nav-item:focus {
 #sidebar-checkbox:focus ~ .sidebar-toggle,
 #sidebar-checkbox:checked ~ .sidebar-toggle {
   color: #fff;
-  background-color: #555;
+  background-color: #cf6969 !important;
 }
 
 .sidebar-toggle:active:before,
