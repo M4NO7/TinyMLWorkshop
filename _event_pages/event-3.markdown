@@ -5,7 +5,7 @@ title:  "CFU Playground and Environment Setup"
 
 TODO
 
-<div id="toc_container" markdown="1">
+<div id="toc_container" style="position: absolute" markdown="1">
 <p class="toc_title">Contents</p>
 
 * TOC
@@ -16,4 +16,3 @@ TODO
 ### Vivado hardware manager
 ### RISC-V toolchain
 ### Golden tests
-

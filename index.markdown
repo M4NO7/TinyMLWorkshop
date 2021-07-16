@@ -2,7 +2,7 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-layout: default 
+layout: default
 title: Home
 ---
 
@@ -22,7 +22,7 @@ A full stack workshop for designing TinyML accelerators<br>
   </a>
 </div> -->
 
-<div id="toc_container" markdown="1">
+<div id="toc_container" style="position: absolute" markdown="1">
 <p class="toc_title">Contents</p>
 
 - TOC
@@ -63,7 +63,7 @@ Tiny Machine Learning (tinyML) is an emerging field of applied machine learning 
 - Introduction to CFU Playground
 - Hands-on tinyML on FPGAs
 
-### Requirements 
+### Requirements
 #### Pre-requisites
 - Familiarity with ML “cycle” (inputs, preprocessing, training, inference, etc.)
 - Knowledge of computer organization (datapath, registers, opcodes, etc.)
@@ -75,9 +75,9 @@ Tiny Machine Learning (tinyML) is an emerging field of applied machine learning 
 #### Hardware
 - Order an Arty A7-35T
 
-#### Software 
+#### Software
 - Install Vivado (and Renode?)
-- Install RISCV tooldchain 
+- Install RISCV tooldchain
 - List more software requirements (Python >= 3.x.x, blah blah, Ubuntu, ...)
 
 #### TinyML Pro Kit
@@ -106,7 +106,7 @@ Tiny Machine Learning (tinyML) is an emerging field of applied machine learning 
   </tr>
   <tr>
     <td>10:00 AM</td>
-    <td>Introduction to TensorFlow Lite Micro (TFLM) 
+    <td>Introduction to TensorFlow Lite Micro (TFLM)
     	<ul>
     		<li>Challenges for running tinyML models</li>
 			<li>TF vs. TFLite vs TFLite Micro - deep dive</li>
@@ -116,7 +116,7 @@ Tiny Machine Learning (tinyML) is an emerging field of applied machine learning 
   </tr>
   <tr>
     <td>11:00 AM</td>
-    <td>Introduction to CFU Playground &amp; Environment Setup 
+    <td>Introduction to CFU Playground &amp; Environment Setup
     	<ul>
     		<li>General overview of CFU</li>
 			<li>Make sure Vivado hardware manager can find board</li>

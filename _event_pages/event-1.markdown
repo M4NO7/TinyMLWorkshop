@@ -4,7 +4,7 @@ title:  "Intro to TinyML"
 ---
 
 
-<div id="toc_container" markdown="1">
+<div id="toc_container" style="position: absolute" markdown="1">
 <p class="toc_title">Contents</p>
 
 * TOC
@@ -12,7 +12,7 @@ title:  "Intro to TinyML"
 </div>
 
 
-## TinyML as a field 
+## TinyML as a field
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSUp9wRnc5coCYms5QxW9BmBZOg7IRCL3L6EPZvZ6w-5bMZIjpibWL2HXIS8MOm4dMXC807J8lXlP0S/embed?start=false&loop=false&delayms=10000" frameborder="0" width="720" height="449" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vT4MFFMtMFahIdCdGHYrHMB4F2A-3GtF_s-EUJku5h-i5_6MRQtzp9BD6Seei4--ymSPMIJGDe4w1JN/embed?start=false&loop=false&delayms=10000" frameborder="0" width="720" height="449" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTQtjQEbnKRPyUHDCWwyKWK5ZLzSDaP_y9luxHVHo_Re2Q532aEK-9XyMkQMwIN4lI3hjnAlqfuQsEr/embed?start=false&loop=false&delayms=10000" frameborder="0" width="720" height="449" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
