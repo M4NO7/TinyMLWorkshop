@@ -104,6 +104,7 @@ h3 {
 h4, h5, h6 {
   margin-top: 1rem;
   font-size: 1rem;
+  color: #a14743 !important
 }
 
 /* Body text */
@@ -295,8 +296,8 @@ tbody tr:nth-child(odd) th {
 
 .container {
   max-width: 38rem;
-  padding-left:  1rem;
-  padding-right: 1rem;
+  padding-left:  0rem;
+  padding-right: 4rem;
   margin-left:  auto;
   margin-right: auto;
 }

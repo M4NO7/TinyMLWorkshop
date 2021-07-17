@@ -5,7 +5,7 @@ title:  "nMigen and Simple Example"
 
 TODO
 
-<div id="toc_container" markdown="1">
+<div id="toc_container" style="position: absolute" markdown="1">
 <p class="toc_title">Contents</p>
 
 * TOC
