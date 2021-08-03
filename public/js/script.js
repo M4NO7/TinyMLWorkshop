@@ -30,13 +30,16 @@
 
 
   document.addEventListener('scroll', tocFollow);
-  document.addEventListener('click', tocFollow);
   window.addEventListener('load', tocFollow);
-  window.addEventListener('keypress', sayhi);
-  function sayhi()
-  {
-    alert(mastheadPos);
+  window.onresize = function(){
+    if (window.innerWidth != screen.width){
+      toc.style.display = 'none';
+    }
+    else{
+      toc.style.display = 'inline';
+    }
   }
+
   function tocFollow(tocThresh, mastThresh) {
     tocPos = (toc.getBoundingClientRect().top);
     mastheadPos = (document.querySelector('.masthead').getBoundingClientRect().top);
@@ -45,12 +48,9 @@
       if(tocPos <= 20 && isAbsolute){
         toc.style.position = 'fixed';
         toc.style.top = '1rem';
-        toc.style.right = '1rem';
-        toc.style.width = '20%';
       }
       if(mastheadPos > -760 && !isAbsolute){
         toc.style.position = 'absolute';
-        toc.style.right = '1rem';
         toc.style.top = '40rem';
       }
     }
@@ -58,12 +58,9 @@
       if(tocPos <= 20 && isAbsolute){
         toc.style.position = 'fixed';
         toc.style.top = '1rem';
-        toc.style.right = '1rem';
-        toc.style.width = '20%';
       }
       if(mastheadPos > -75 && !isAbsolute){
         toc.style.position = 'absolute';
-        toc.style.right = '1rem';
         toc.style.top = '5rem';
       }
     }
