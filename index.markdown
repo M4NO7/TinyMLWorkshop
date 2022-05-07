@@ -6,10 +6,10 @@ layout: default
 title: Home
 ---
 
-<!-- <h1> The Art-y of Accelerators for TinyML </h1>
+<!-- <h1> CFU-Playground: Build Your Own Custom TinyML Processor </h1>
 
-A full stack workshop for designing TinyML accelerators<br>
-*Coming February 2021*
+A full-stack workshop for accelerating TinyML<br>
+*FCCM May 18, 2022*
 
 <div style="display:inline-block;">
   <a style="text-decoration:none" href="https://www.seas.harvard.edu/">

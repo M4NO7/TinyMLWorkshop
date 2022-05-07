@@ -16,7 +16,7 @@ categories: jekyll update
 	    		</div>
 			</td>
 			<td class="person-bio">
-				Put mini bio here, link image to website/more info if applicable
+				Add photos of speakers and mini bio, link image to website/more info if applicable
 			</td>
 		</tr>
 		<tr>
