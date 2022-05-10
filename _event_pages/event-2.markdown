@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  "Intro to TensorFlow Lite Micro"
+title:  "TensorFlow Lite for Microcontrollers"
 ---
 
 

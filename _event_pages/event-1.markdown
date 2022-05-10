@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  "Intro to TinyML"
+title:  "Tiny Machine Learning"
 ---
 
 

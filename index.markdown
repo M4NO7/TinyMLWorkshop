@@ -36,32 +36,23 @@ A full-stack workshop for accelerating TinyML<br>
 </div>
  -->
 
-### Past and Upcoming Workshops
+### About 
+Running machine learning (ML) on embedded edge devices, as opposed to in the cloud, is gaining increased attention for multiple reasons such as privacy, latency, security, and accessibility. Given the need for energy efficiency when running ML on these embedded platforms, custom processor support and hardware accelerators for such systems could present the needed solutions. However, ML acceleration on microcontroller-class hardware is a new area, and there exists a need for agile hardware customization for tiny machine learning (tinyML). Building ASICs is both costly and time-consuming, though, and the opportunity exists with an FPGA platform to customize the processor to adapt it to perform the application’s computation efficiently while adding a small amount of custom hardware that exploits the bit-level flexibility of FPGAs. 
 
-| Date | Version | Session |
-|------|---------|---------|
-| Feb 2021 | v1.0 | TinyML-Summit |
-| ... | ... | ... |
-
-
-### About
-
-Tiny Machine Learning (tinyML) is an emerging field of applied machine learning (ML) that focuses on running ML models on ultra-low-power embedded systems. The goal of this tutorial/workshop is to introduce people to the field of tinyML, showcase its unique applications and real-world use cases and dive into the underlying hardware and software that makes it tick. In this tutorial, we focus on efficient hardware and software deployment for tinyML systems. To that end, the first half of the tutorial dives into TensorFlow Lite Micro, an embedded machine learning framework for running ML models that are a few hundreds of KBs on tinyML hardware. The second half of the tutorial focuses on CFU Playground, a framework that an engineer, intern, or student can use to design and evaluate enhancements to an FPGA-based “soft” processor, specifically to increase the performance of machine learning (ML) tasks. This combination of hardware and software showcases the flexibility and strengths of open-source frameworks and hardware to rapidly explore the design space for developing model-specific accelerators for tinyML.
+To this end, we present CFU Playground, a full-stack open-source framework that enables rapid and iterative design of tightly-coupled accelerators for tinyML systems. Our toolchain integrates open-source software, RTL generators, and FPGA tools for synthesis, place, and route. This full-stack development framework gives engineers access to explore bespoke architectures that are customized and co-optimized for tinyML. The rapid deploy-profile-optimization feedback loop lets ML hardware and software developers achieve significant returns out of a relatively small investment in customization for repetitive ML computations. CFU Playground is available as an open-source project here: https://github.com/google/CFU-Playground.
 
 #### What is the goal of the workshop?
 - What are some of the challenges and opportunities for designing tinyML hardware?
 - How can we design and develop model-specific accelerators quickly on FPGAs?
-- Get hands-on knowledge on how to build an ML accelerator using CFU playground
+- Get hands-on knowledge on how to build an ML accelerator using CFU playground!
 
 #### Who is the audience for this workshop?
-- Computer organization class students
-- Computer architecture researcher students and practitioners
+New ML accelerators are being announced and released each month for a variety of applications. However, the large cost & complexity associated with designing an accelerator, integrating it into a larger System-on-Chip, and developing its software stack has made it a non-trivial task that is difficult for one to rapidly iterate upon. Attendees will be able to deploy their very own accelerated ML solutions within minutes, empowering them to explore the breadth of opportunity that exists in hardware acceleration. This in conjunction with the relevance and excitement surrounding ML today should welcome people with many different backgrounds and interests in ML, FPGAs, embedded systems, computer architecture, hardware design, and software development. 
 
-#### Topics
-- Introduction to tinyML
-- Introduction to TensorFlow Lite Micro
-- Introduction to CFU Playground
-- Hands-on tinyML on FPGAs
+#### Scope and Topics 
+- Custom Hardware Acceleration on FPGAs
+- Tiny Machine Learning (TinyML)
+- Open-Source Tools/Frameworks for HW & SW Development (Full-Stack)
 
 ### Requirements
 #### Pre-requisites
@@ -73,15 +64,10 @@ Tiny Machine Learning (tinyML) is an emerging field of applied machine learning 
 - Need to know C and Python
 
 #### Hardware
-- Order an Arty A7-35T
+- Renode will be used to emulate Arty A7-35T
 
 #### Software
-- Install Vivado (and Renode?)
-- Install RISCV tooldchain
-- List more software requirements (Python >= 3.x.x, blah blah, Ubuntu, ...)
-
-#### TinyML Pro Kit
-*Coming Soon*
+- All software (RISCV toolchain, Symbiflow, etc.) installed in via environment pre-packaged with CFU Playground. 
 
 ### Schedule
 <div>
@@ -94,19 +80,19 @@ Tiny Machine Learning (tinyML) is an emerging field of applied machine learning 
 </thead>
 <tbody>
   <tr>
-    <td>9:00 AM</td>
-    <td>Welcome &amp; Introduction to tinyML
+    <td>1:00 PM</td>
+    <td>Welcome &amp; Tiny Machine Learning (TinyML)
     	<ul>
     	<li>General overview of tinyML as a field</li>
     	<li>What are the common use cases</li>
     	<li>What kind of models do we run</li>
-    	<li>What are the typical resource constraints and challenges etc.</li>
+    	<li>What are the typical resource constraints, challenges, etc.</li>
     	</ul>
     </td>
   </tr>
   <tr>
-    <td>10:00 AM</td>
-    <td>Introduction to TensorFlow Lite Micro (TFLM)
+    <td>1:30 PM</td>
+    <td>TensorFlow Lite Microcontrollers (TFLM)
     	<ul>
     		<li>Challenges for running tinyML models</li>
 			<li>TF vs. TFLite vs TFLite Micro - deep dive</li>
@@ -115,8 +101,8 @@ Tiny Machine Learning (tinyML) is an emerging field of applied machine learning 
 	</td>
   </tr>
   <tr>
-    <td>11:00 AM</td>
-    <td>Introduction to CFU Playground &amp; Environment Setup
+    <td>2:00 PM</td>
+    <td>Benchmarking of TinyML Systems
     	<ul>
     		<li>General overview of CFU</li>
 			<li>Make sure Vivado hardware manager can find board</li>
@@ -126,12 +112,19 @@ Tiny Machine Learning (tinyML) is an emerging field of applied machine learning 
 	</td>
   </tr>
   <tr>
-    <td>12:00 PM</td>
-    <td>Lunch</td>
+    <td>2:30 PM</td>
+    <td>Custom Function Units
+    	<ul>
+    		<li>General overview of CFU</li>
+			<li>Make sure Vivado hardware manager can find board</li>
+			<li>Install RISC-V toolchain</li>
+			<li>Pass golden tests</li>
+    	</ul>
+	</td>
   </tr>
   <tr>
-    <td>1:00 PM</td>
-    <td>Introduction to nMigen & Simple Example
+    <td>3:00 PM</td>
+    <td>Introduction to Amaranth
 		<ul>
 			<li>What is Litex</li>
 			<li>Explain basic Litex SoC with an example</li>
@@ -140,8 +133,16 @@ Tiny Machine Learning (tinyML) is an emerging field of applied machine learning 
 	</td>
   </tr>
   <tr>
-    <td>2:00-5:00 PM</td>
-    <td>Accelerate Your Own Model
+    <td>3:30 PM</td>
+    <td>Renode/Antmicro
+    	<ul>
+			<li>TBD</li>
+    	</ul>
+    </td>
+  </tr>
+  <tr>
+    <td>4:00 PM</td>
+    <td>Accelerate your own TinyML Model
     	<ul>
 			<li>Pick a task and train a model using TFLM</li>
 			<li>Get it running on the board</li>
